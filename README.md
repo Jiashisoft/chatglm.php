@@ -17,12 +17,6 @@
 
 ------
 
-![code](assets/image1.png)
-![chart](assets/image2.png)
-![latex](assets/image3.png)
-
-------
-
 **由于国内环境使用OpenAI官方接口Chatgpt不太方便，而且目前国产大模型效果也越来越强，
 所以基于大佬的代码适配了PHP版调用ZhipuAI的API接口进行问答的Demo，代码默认为调用GLM-4-Flash免费模型，
 是智谱AI首个免费大模型API，兼具“高速度”和“经济性”两大特点，支持128K上下文。**
@@ -40,18 +34,18 @@ https://open.bigmodel.cn/dev/api/error-code/error-code-v4
 
 ------
 
-**部署使用说明 **
-1.确保服务器php版本为5.6.9以上，实测5.2.17不支持。<br />
-2.修改stream.php中第9行的OPENAI_API_KEY为你的_api_key。<br />
-3.（可选）如需使用其它对话模型，如glm-4-0520，在模型广场查到模型编码后，修改setsession.php中第4行model项目"glm-4-flash"为你的模型名称代码。
+**部署使用说明：**
+1. 确保服务器php版本为5.6.9以上，实测5.2.17不支持。
+2. 修改stream.php中第9行的OPENAI_API_KEY为你的_api_key。
+3. （可选）如需使用其它对话模型，如glm-4-0520，在模型广场查到模型编码后，修改setsession.php中第4行model项目"glm-4-flash"为你的模型名称代码。
 
 ------
 
 **智谱AI官网的模型和接口调用介绍：**
 
 模型广场（模型编码）<br />
-https://open.bigmodel.cn/console/modelcenter/square
+https://open.bigmodel.cn/console/modelcenter/square<br />
 接口文档（HTTP调用）<br />
-https://open.bigmodel.cn/dev/api/normal-model/glm-4
+https://open.bigmodel.cn/dev/api/normal-model/glm-4<br />
 API密钥Key<br />
 https://open.bigmodel.cn/usercenter/apikeys
