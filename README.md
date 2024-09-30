@@ -1,7 +1,8 @@
 # chatglm_php
 基于chatgpt(php)项目，适配了ZhiPu智谱AI官方大语言模型chatGLM在线API聊天接口的php调用demo。
 ![userinterface](assets/main.png)
-#原作者项目：https://github.com/dirk1983/chatgpt
+
+# 原作者项目：https://github.com/dirk1983/chatgpt
 ------
 **版本特性，来自原作者更新日志：**
 
@@ -39,7 +40,7 @@ https://open.bigmodel.cn/dev/api/error-code/error-code-v4
 
 ------
 
-**部署使用说明**
+**部署使用说明 **
 1.确保服务器php版本为5.6.9以上，实测5.2.17不支持。<br />
 2.修改stream.php中第9行的OPENAI_API_KEY为你的_api_key。<br />
 3.（可选）如需使用其它对话模型，如glm-4-0520，在模型广场查到模型编码后，修改setsession.php中第4行model项目"glm-4-flash"为你的模型名称代码。
