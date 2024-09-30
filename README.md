@@ -1,5 +1,6 @@
 # chatglm_php
-基于chatgpt(php)项目，适配了ZhiPu智谱AI官方大语言模型chatGLM在线API聊天接口的php调用demo。
+基于chatgpt(php)项目，适配了ZhiPu智谱AI官方大语言模型chatGLM在线API聊天接口的php调用demo。<br />
+
 ![userinterface](assets/main.png)
 
 # 原作者项目：https://github.com/dirk1983/chatgpt
