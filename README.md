@@ -1,5 +1,5 @@
-# chatglm_php
-基于chatgpt(php)项目，适配了ZhiPu智谱AI官方大语言模型chatGLM在线API聊天接口的php调用demo。<br />
+# chatglm-php
+基于chatgpt_php项目，适配了ZhiPu智谱AI官方大语言模型chatGLM在线API聊天接口的php调用demo。<br />
 
 ![userinterface](assets/main.png)
 
@@ -18,7 +18,7 @@
 
 ------
 
-**由于国内环境使用OpenAI官方接口Chatgpt不太方便，而且目前国产大模型效果也越来越强，
+**由于国内环境使用OpenAI官方接口ChatGPT不太方便，而且目前国产大模型效果也越来越强，
 所以基于大佬的代码适配了PHP版调用ZhipuAI的API接口进行问答的Demo，代码默认为调用GLM-4-Flash免费模型，
 是智谱AI首个免费大模型API，兼具“高速度”和“经济性”两大特点，支持128K上下文。**
 
@@ -30,6 +30,7 @@
 5. 为了美观可以把上面的“连续对话”部分注释掉，这样对手机访问更友好。
 6. index.php前面的代码还可以实现区分内外网IP，内网直接访问，外网通过BASIC认证后可访问。可以根据需要删掉注释并进行修改。
 
+本项目对初次尝试LLM领域开发者友好，结构简单易懂理解方便，定位是个人或朋友之间分享使用，简洁轻量设计，不计划引入数据库等复杂功能。
 目前并没有适配支持chatglm的错误处理，接口返回错误时看不到具体原因。<br />
 https://open.bigmodel.cn/dev/api/error-code/error-code-v4
 
